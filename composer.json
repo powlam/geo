@@ -1,11 +1,14 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "powlam/geo",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "A website about geographical information: political regions, flags, standard codes...",
     "keywords": [
+        "php",
         "laravel",
-        "framework"
+        "geo",
+        "geography",
+        "flags"
     ],
     "license": "MIT",
     "require": {
