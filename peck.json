@@ -2,7 +2,12 @@
     "preset": "laravel",
     "ignore": {
         "words": [
-            "php"
+            "php",
+            "subentity",
+            "alfa",
+            "num",
+            "FIFA",
+            "IOC"
         ],
         "paths": []
     }
