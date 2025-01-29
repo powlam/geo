@@ -20,3 +20,7 @@ Route::middleware('auth')->group(function (): void {
 });
 
 require __DIR__.'/auth.php';
+
+Route::get('/docs', function () {
+    return file_get_contents(public_path('docs/index.html'));
+});
